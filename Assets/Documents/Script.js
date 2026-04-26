@@ -13,7 +13,7 @@ const Songs = [
     },
     {
         Title: "Almost Padipoyinde Pilla",
-        Artist: "",
+        Artist: "Adhithya RK",
         src: "assets/songs/3.mp3",
         Cover: "assets/cover/3.jpg"
     },
@@ -25,7 +25,7 @@ const Songs = [
     },
     {
         Title: "Evarevaro",
-        Artist: "",
+        Artist: "Vishal Mishra",
         src: "assets/songs/5.mp3",
         Cover: "assets/cover/5.jpg"
     },
