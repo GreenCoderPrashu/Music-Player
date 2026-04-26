@@ -1,9 +1,63 @@
 const Songs = [
     {
-        title: "",
+        title: "Adiga Adiga",
+        artist: "Sid Sriram",
+        src: "Assets/Songs/1.mp3",
+        cover: "Assets/Cover/Pic1.jpg"
+    },
+    {
+        title: "Yaakinge",
+        artist: "All Ok",
+        src: "Assets/Songs/2.mp3",
+        cover: "Assets/Cover/Pic2.jpg"
+    },
+    {
+        title: "Almost Padipoyinde Pilla",
         artist: "",
-        src: "",
-        cover: ""
+        src: "Assets/Songs/3.mp3",
+        cover: "Assets/Cover/Pic3.jpg"
+    },
+    {
+        title: "Emo Emo Emo",
+        artist: "Sid Sriram",
+        src: "Assets/Songs/4.mp3",
+        cover: "Assets/Cover/Pic4.jpg"
+    },
+    {
+        title: "Evarevaro",
+        artist: "",
+        src: "Assets/Songs/5.mp3",
+        cover: "Assets/Cover/Pic5.jpg"
+    },
+    {
+        title: "Mayavi",
+        artist: "Sanjith Hegade",
+        src: "Assets/Songs/6.mp3",
+        cover: "Assets/Cover/Pic6.jpg"
+    },
+    {
+        title: "Nijame Ne Chaputhuna",
+        artist: "Sid Sriram",
+        src: "Assets/Songs/7.mp3",
+        cover: "Assets/Cover/Pic7.jpg"
+    },
+    {
+        title: "Obbane",
+        artist: "Rahul Dit-o",
+        src: "Assets/Songs/8.mp3",
+        cover: "Assets/Cover/Pic8.jpg"
+    },
+    {
+        title: "So So Ga",
+        artist: "Sid Sriram",
+        src: "Assets/Songs/9.mp3",
+        cover: "Assets/Cover/Pic9.jpg"
+    },
+    {
+        title: "Undiporadhe Sad Version",
+        artist: "Sid Sriram",
+        src: "Assets/Songs/10.mp3",
+        cover: "Assets/Cover/Pic10.jpg"
     }
 ];
 let SongIndex = 0;
