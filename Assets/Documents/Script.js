@@ -1,63 +1,63 @@
 const Songs = [
     {
-        title: "Adiga Adiga",
-        artist: "Sid Sriram",
-        src: "Assets/Songs/1.mp3",
-        cover: "Assets/Cover/Pic1.jpg"
+        Title: "Adiga Adiga",
+        Artist: "Sid Sriram",
+        src: "assets/songs/1.mp3",
+        Cover: "assets/cover/1.jpg"
     },
     {
-        title: "Yaakinge",
-        artist: "All Ok",
-        src: "Assets/Songs/2.mp3",
-        cover: "Assets/Cover/Pic2.jpg"
+        Title: "Yaakinge",
+        Artist: "All Ok",
+        src: "assets/songs/2.mp3",
+        Cover: "assets/cover/2.jpg"
     },
     {
-        title: "Almost Padipoyinde Pilla",
-        artist: "",
-        src: "Assets/Songs/3.mp3",
-        cover: "Assets/Cover/Pic3.jpg"
+        Title: "Almost Padipoyinde Pilla",
+        Artist: "",
+        src: "assets/songs/3.mp3",
+        Cover: "assets/cover/3.jpg"
     },
     {
-        title: "Emo Emo Emo",
-        artist: "Sid Sriram",
-        src: "Assets/Songs/4.mp3",
-        cover: "Assets/Cover/Pic4.jpg"
+        Title: "Emo Emo Emo",
+        Artist: "Sid Sriram",
+        src: "assets/songs/4.mp3",
+        Cover: "assets/cover/4.jpg"
     },
     {
-        title: "Evarevaro",
-        artist: "",
-        src: "Assets/Songs/5.mp3",
-        cover: "Assets/Cover/Pic5.jpg"
+        Title: "Evarevaro",
+        Artist: "",
+        src: "assets/songs/5.mp3",
+        Cover: "assets/cover/5.jpg"
     },
     {
-        title: "Mayavi",
-        artist: "Sanjith Hegade",
-        src: "Assets/Songs/6.mp3",
-        cover: "Assets/Cover/Pic6.jpg"
+        Title: "Mayavi",
+        Artist: "Sanjith Hegade",
+        src: "assets/songs/6.mp3",
+        Cover: "assets/cover/6.jpg"
     },
     {
-        title: "Nijame Ne Chaputhuna",
-        artist: "Sid Sriram",
-        src: "Assets/Songs/7.mp3",
-        cover: "Assets/Cover/Pic7.jpg"
+        Title: "Nijame Ne Chaputhuna",
+        Artist: "Sid Sriram",
+        src: "assets/songs/7.mp3",
+        Cover: "assets/cover/7.jpg"
     },
     {
-        title: "Obbane",
-        artist: "Rahul Dit-o",
-        src: "Assets/Songs/8.mp3",
-        cover: "Assets/Cover/Pic8.jpg"
+        Title: "Obbane",
+        Artist: "Rahul Dit-o",
+        src: "assets/songs/8.mp3",
+        Cover: "assets/cover/8.jpg"
     },
     {
-        title: "So So Ga",
-        artist: "Sid Sriram",
-        src: "Assets/Songs/9.mp3",
-        cover: "Assets/Cover/Pic9.jpg"
+        Title: "So So Ga",
+        Artist: "Sid Sriram",
+        src: "assets/songs/9.mp3",
+        Cover: "assets/cover/9.webp"
     },
     {
-        title: "Undiporadhe Sad Version",
-        artist: "Sid Sriram",
-        src: "Assets/Songs/10.mp3",
-        cover: "Assets/Cover/Pic10.jpg"
+        Title: "Undiporadhe Sad Version",
+        Artist: "Sid Sriram",
+        src: "assets/songs/10.mp3",
+        Cover: "assets/cover/10.webp"
     }
 ];
 let SongIndex = 0;
@@ -105,18 +105,18 @@ function NextSong() {
 }
 
 function UpdateProgress(e) {
-    const { Duration, CurrentTime } = e.srcElement;
-    const ProgressPercent = (CurrentTime / Duration) * 100;
+    const { duration, currentTime } = e.srcElement;
+    const ProgressPercent = (currentTime / duration) * 100;
     Progress.style.width = `${ProgressPercent}%`; 
-    DurationEl.textContent = FormatTime(Duration);
-    CurrentTimeEl.textContent = FormatTime(CurrentTime);
+    DurationEl.textContent = FormatTime(duration);
+    CurrentTimeEl.textContent = FormatTime(currentTime);
 }
 
 function SetProgress(e) {
-    const Width = this.ClientWidth;
-    const ClickX = e.OffsetX;
-    const Duration = Audio.Duration;
-    Audio.CurrentTime = (ClickX / Width) * Duration;
+    const Width = this.clientWidth;
+    const ClickX = e.offsetX;
+    const Duration = Audio.duration;
+    Audio.currentTime = (ClickX / Width) * Duration;
 }
 
 function FormatTime(time) {
@@ -133,5 +133,5 @@ PlayBtn.addEventListener('click', () => {
 PrevBtn.addEventListener('click', PrevSong);
 NextBtn.addEventListener('click', NextSong);
 Audio.addEventListener('timeupdate', UpdateProgress);
-Audio.addEventListener('ended', nextSong);
+Audio.addEventListener('ended', NextSong);
 ProgressContainer.addEventListener('click', SetProgress);
