@@ -2,62 +2,62 @@ const Songs = [
     {
         Title: "Adiga Adiga",
         Artist: "Sid Sriram",
-        src: "assets/songs/1.mp3",
-        Cover: "assets/cover/1.jpg"
+        src: "assets-/songs/1.mp3",
+        Cover: "assets-/cover/1.jpg"
     },
     {
         Title: "Yaakinge",
         Artist: "All Ok",
-        src: "assets/songs/2.mp3",
-        Cover: "assets/cover/2.jpg"
+        src: "assets-/songs/2.mp3",
+        Cover: "assets-/cover/2.jpg"
     },
     {
         Title: "Almost Padipoyinde Pilla",
         Artist: "Adhithya RK",
-        src: "assets/songs/3.mp3",
-        Cover: "assets/cover/3.jpg"
+        src: "assets-/songs/3.mp3",
+        Cover: "assets-/cover/3.jpg"
     },
     {
         Title: "Emo Emo Emo",
         Artist: "Sid Sriram",
-        src: "assets/songs/4.mp3",
-        Cover: "assets/cover/4.jpg"
+        src: "assets-/songs/4.mp3",
+        Cover: "assets-/cover/4.jpg"
     },
     {
         Title: "Evarevaro",
         Artist: "Vishal Mishra",
-        src: "assets/songs/5.mp3",
-        Cover: "assets/cover/5.jpg"
+        src: "assets-/songs/5.mp3",
+        Cover: "assets-/cover/5.jpg"
     },
     {
         Title: "Mayavi",
         Artist: "Sanjith Hegade",
-        src: "assets/songs/6.mp3",
-        Cover: "assets/cover/6.jpg"
+        src: "assets-/songs/6.mp3",
+        Cover: "assets-/cover/6.jpg"
     },
     {
         Title: "Nijame Ne Chaputhuna",
         Artist: "Sid Sriram",
-        src: "assets/songs/7.mp3",
-        Cover: "assets/cover/7.jpg"
+        src: "assets-/songs/7.mp3",
+        Cover: "assets-/cover/7.jpg"
     },
     {
         Title: "Obbane",
         Artist: "Rahul Dit-o",
-        src: "assets/songs/8.mp3",
-        Cover: "assets/cover/8.jpg"
+        src: "assets-/songs/8.mp3",
+        Cover: "assets-/cover/8.jpg"
     },
     {
         Title: "So So Ga",
         Artist: "Sid Sriram",
-        src: "assets/songs/9.mp3",
-        Cover: "assets/cover/9.webp"
+        src: "assets-/songs/9.mp3",
+        Cover: "assets-/cover/9.webp"
     },
     {
         Title: "Undiporadhe Sad Version",
         Artist: "Sid Sriram",
-        src: "assets/songs/10.mp3",
-        Cover: "assets/cover/10.webp"
+        src: "assets-/songs/10.mp3",
+        Cover: "assets-/cover/10.webp"
     }
 ];
 let SongIndex = 0;
