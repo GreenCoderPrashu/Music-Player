@@ -11,5 +11,7 @@ This is a simple resonsive music website, this built using HTML CSS And Js.
 => We can go Priveous and Next song by clicking.<br>
 => It is portable for all the devices.<br>
 <br>
-<a href="https://greencoderprashu.github.io/Music-Player/" align="center">🎵 View Music Player </a>
+<p align="center">
+  <a href="https://greencoderprashu.github.io/Music-Player/" target="_blank">🎵 View Music Player</a>
+</p>
 <h2 align="center">Thank You</h2>
